@@ -1,0 +1,32 @@
+h1 {
+    color: #FF332F;
+    font-family: 'Roboto';
+}
+
+.corDeFundo {
+    background-color: #414545;
+}
+
+.botao {
+    display: block;
+    background-color: #5ECCFF;
+}
+
+.botao:hover {
+    background-color: #5EB2FF;
+}
+
+.redirect {
+    text-decoration: none;
+    color: #FF332F;
+}
+
+.redirect:hover {
+    color: #d4221f;
+}
+
+.img {
+    background-image: url('vingadores.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}

@@ -1,0 +1,46 @@
+body {
+    background-image: url('avengers.jpg');
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #000;
+    font-size: 3em;
+    color: #fffdd9;
+}
+
+.center {
+    margin-top: 140px;
+}
+
+.redirect {
+    text-decoration: none;
+    /* color: rgb(255, 230, 4);*/
+    color: white;
+}
+
+.botao {
+    background-color: orange;
+    border: none;
+    height: 35px;
+}
+
+.botao:hover {
+    background-color: rgb(240, 160, 0);
+    border: none;
+    height: 35px;
+}
+
+.teste {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.borda {
+    border: none;
+}

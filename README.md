@@ -2,3 +2,4 @@
 Repositório para o desenvolvimento do projeto integrador 2 de STI
 
 A proposta desse projeto é contruir uma pagina web dinamica. O tema deste grupo será uma loja de quadrinhos.
+.

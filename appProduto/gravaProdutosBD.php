@@ -4,16 +4,7 @@ ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
-
-
-$bd_dsn = 'mysql:host=localhost;port=3306;dbname=pi';
-$bd_user = 'root';
-$bd_pass = '';
-
-
-$bd = new PDO($bd_dsn,$bd_user,$bd_pass);
-
-
+require("../connection/connectionFactory.php");
 
 $_POST['nome'] = $_POST['nome'] ?? '';
 $_POST['preco'] = $_POST['preco'] ?? '';
@@ -33,7 +24,7 @@ echo'Quantidade: ' . $_POST['quant'] . '<br>';
 
 
 //Preparamos a consulta para evitar SQL Injection
-$stmt = $bd->prepare(' INSERT produto
+$stmt = $db->prepare(' INSERT produto
                             (nome, preco, descricao, quantidade)
                         VALUES 
                             (:nome, :preco, :descricao, :quantidade)');

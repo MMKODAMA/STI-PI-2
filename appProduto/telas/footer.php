@@ -11,4 +11,5 @@ echo
         <span>Nossos quadrinhos - Todos os direitos reservados.</span>
     </div>
     </div>
-</footer>';
+</footer>
+</html>';

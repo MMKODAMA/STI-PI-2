@@ -13,7 +13,7 @@
             </div>
             <div>
                 <label for="inputAddress" class="form-label ">Descrição</label>
-                <textarea name="desc"  class="form-control " aria-label="With textarea"></textarea>
+                <textarea name="descricao"  class="form-control " aria-label="With textarea"></textarea>
             </div>
 
             <div class="col-md-4">

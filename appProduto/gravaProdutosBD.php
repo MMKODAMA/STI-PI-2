@@ -24,10 +24,10 @@ echo'Quantidade: ' . $_POST['quant'] . '<br>';
 
 
 //Preparamos a consulta para evitar SQL Injection
-$stmt = $db->prepare(' INSERT produto
+$stmt = $db->prepare(" INSERT produto
                             (nome, preco, descricao, quantidade)
                         VALUES 
-                            (:nome, :preco, :descricao, :quantidade)');
+                            (:nome, :preco, :descricao, :quantidade)");
 
 $valores[':nome'] = $_POST['nome'];
 $valores[':preco'] = $_POST['preco'];

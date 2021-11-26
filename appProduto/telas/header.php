@@ -1,7 +1,5 @@
 <?php
-
 echo
-
 '
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -36,13 +34,13 @@ echo
               <div id="divMenu" class="collapse navbar-collapse d-4 justify-content-end">
                   <ul class="navbar-nav">
                     <li class="nav-item ">
-                        <a class=" text-white link-navbar nav-link fs-5  hover" href="cadastroProduto.html">Cadastro</a>
+                        <a class=" text-white link-navbar nav-link fs-5  hover" href="cadastroProduto.php">Cadastro</a>
                     </li>
                     <li class="nav-item">
-                        <a class="link-navbar nav-link fs-5 text-white hover" href="#">Listar</a>
+                        <a class="link-navbar nav-link fs-5 text-white hover" href="listar.php">Listar</a>
                     </li>
                     <li class="nav-item">
-                        <a class="link-navbar nav-link fs-5  text-white hover" href="#"></a>
+                        <a class="link-navbar nav-link fs-5  text-white hover" href="PI-telaDeLogin/index.html">Login</a>
                     </li>
                   </ul>
               </div>
@@ -51,16 +49,6 @@ echo
         <div class="pt-2 pb-2" style="background-color: rgb(151, 151, 151);">
           <div class="container">
             <div class="row">
-                <div class="col-4 d-flex justify-content-center">
-                  <a class="link-navbar fw-bold" href="#">Login</a>
-                </div>
-                <div class="col-4 d-flex justify-content-center">
-                  <img src="#"></a>
-                </div>
-                <div class="col-4 d-flex justify-content-center">
-                  <input class="form-control me-2" type="search" placeholder="Pesquisa" aria-label="Search">
-                  <button class="btn btn-outline-dark" type="submit">Pesquisa</button>
-                </div>
             </div>
           </div>
         </div>

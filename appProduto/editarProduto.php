@@ -4,8 +4,10 @@
     <body>
         <form class="row g-3 container py-3 ps-5 " method="post" action="update.php">
             <div class="col-md-6">
+                
+                <input type="hidden" name="id" value = "<?= $id ?>">
                 <label for="inputEmail4" class="form-label">Nome do Produto</label>
-                <input name="nome" value="<?php echo $nome; ?>" type="text" class="form-control" id="inputEmail4">
+                <input name="nome" value="<?php echo ($nome) ; ?>" type="text" class="form-control" id="inputEmail4">
             </div>
             <div class="col-md-6">
                 <label for="inputPassword4" class="form-label">Preço</label>
@@ -13,7 +15,7 @@
             </div>
             <div>
                 <label for="inputAddress" class="form-label ">Descrição</label>
-                <textarea name="desc" value="<?php echo $descricao; ?>" class="form-control " aria-label="With textarea"></textarea>
+                <textarea name="desc" class="form-control " aria-label="With textarea"><?php echo $descricao; ?></textarea>
             </div>
 
             <div class="col-md-4">

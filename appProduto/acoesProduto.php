@@ -16,16 +16,18 @@ if(!empty($_POST['apagar'])){
 
 
 if(!empty($_POST['editar'])){
-    $sql = 'SELECT id, nome, preco, descricao, quantidade FROM produto WHERE id = id';
+    $sql = 'SELECT id, nome, preco, descricao, quantidade FROM produto WHERE id = :id';
 
-    foreach($db->query($sql) as $registro){
+    $preparada = $db->prepare($sql);
+    $preparada->execute([':id' => $_POST['editar']]);
+    $result = $preparada->fetch(PDO::FETCH_ASSOC);
 
-    $id = $registro['id'];
-    $nome = $registro['nome'];
-    $preco = $registro['preco'];
-    $descricao = $registro['descricao'];
-    $quantidade = $registro['quantidade'];  
-}
-
+    $id = $result['id'];
+    $nome = $result['nome'];
+    $preco = $result['preco'];
+    $descricao = $result['descricao'];
+    $quantidade = $result['quantidade'];  
+    
     require("editarProduto.php");
 }
+    

@@ -3,6 +3,7 @@ body {
     background-attachment: fixed;
     background-size: 100%;
     background-repeat: no-repeat;
+    background-color: #424e5a;
 }
 
 h1 {
@@ -43,4 +44,8 @@ h1 {
 
 .borda {
     border: none;
+}
+
+.bg {
+    background-color: white;
 }

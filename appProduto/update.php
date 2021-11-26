@@ -19,9 +19,7 @@ if($preparada->execute($parameters) ){
 }
 
 
-//header('Location: listar.php');
 
 
-//$sql = 'UPDATE nome, preco, descricao, quantidade FROM produto WHERE id = id';
 
-//$stmt->execute($sql);
+

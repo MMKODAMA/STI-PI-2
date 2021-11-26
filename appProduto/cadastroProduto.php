@@ -13,7 +13,7 @@
             </div>
             <div>
                 <label for="inputAddress" class="form-label ">Descrição</label>
-                <textarea name="desc"  class="form-control " aria-label="With textarea"></textarea>
+                <textarea name="descricao"  class="form-control " aria-label="With textarea"></textarea>
             </div>
 
             <div class="col-md-4">
@@ -27,16 +27,7 @@
                 <option name="quant">15</option>
                 </select>
             </div>
-            <!--
-            <div class="col-md-4">
-                <label for="inputState" class="form-label">Possiu cores diferentes?</label>
-                <select name="#"id="inputState" class="form-select">
-                <option selected>Sim</option>
-                <option>Não</option>
 
-                </select>
-            </div>
-        -->
             <div class="col-12 py-4">
                 <button type="submit" class="btn btn-secondary fs-5">Enviar</button>
             </div>

@@ -3,11 +3,11 @@
     ?>
     <body>
         <form class="row g-3 container py-3 ps-5 " method="post" action="update.php">
-            <div class="col-md-6">
-                
+            <div class="col-md-6">                
                 <input type="hidden" name="id" value = "<?= $id ?>">
                 <label for="inputEmail4" class="form-label">Nome do Produto</label>
                 <input name="nome" value="<?php echo ($nome) ; ?>" type="text" class="form-control" id="inputEmail4">
+
             </div>
             <div class="col-md-6">
                 <label for="inputPassword4" class="form-label">Preço</label>
@@ -29,16 +29,6 @@
                 <option name="quant">15</option>
                 </select>
             </div>
-            <!--
-            <div class="col-md-4">
-                <label for="inputState" class="form-label">Possiu cores diferentes?</label>
-                <select name="#"id="inputState" class="form-select">
-                <option selected>Sim</option>
-                <option>Não</option>
-
-                </select>
-            </div>
-        -->
             <div class="col-12 py-4">
                 <button type="submit" class="btn btn-secondary fs-5">Atualizar</button>
             </div>

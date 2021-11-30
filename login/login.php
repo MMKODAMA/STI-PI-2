@@ -18,10 +18,7 @@ if($registro){
     if(password_verify($_POST['password'], $registro['senha'])){
         
         $_SESSION['id'] = $registro['id'];
-        
-        include('../shared/header.php');
-        include('../shared/home.php');
-        include('../shared/footer.php');
+        header('Location: cadastro/cadastro.html');
     }else{
         
         session_destroy();

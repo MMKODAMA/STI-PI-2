@@ -17,14 +17,8 @@ if(empty($_POST['nome'] || $_POST['preco'] || $_POST['quant'])){
     die('ERRO! os campos são obriatórios');
 }
 
-echo'O nome do produto é: ' . $_POST['nome'] . '<br>';
-echo'O preço é: ' . $_POST['preco'] . '<br>';
-echo'Descrição do : ' . $_POST['desc'] . '<br>';
-echo'Quantidade: ' . $_POST['quant'] . '<br>';
-
-
 //Preparamos a consulta para evitar SQL Injection
-$stmt = $db->prepare(" INSERT produto
+$stmt = $db->prepare(" INSERT INTO produto
                             (nome, preco, descricao, quantidade)
                         VALUES 
                             (:nome, :preco, :descricao, :quantidade)");

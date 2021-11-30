@@ -1,24 +1,20 @@
-<!DOCTYPE html>
-<html lang="en">
-
 <?php
-include('appProduto/telas/header.php');
+include('../appProduto/telas/header.php');
 ?>
 
-    <body>
         <main>
             <section class="mt-5 ps-3 pe-3 mb-5">
                 <div id="carousel">
                     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img src="home/imagens/imagem.png" class="d-block w-100">
+                                <img src="imagens/imagem.png" class="d-block w-100">
                             </div>
                             <div class="carousel-item">
-                                <img src="home/imagens/imagem2.png" class="d-block w-100">
+                                <img src="imagens/imagem2.png" class="d-block w-100">
                             </div>
                             <div class="carousel-item">
-                                <img src="home/imagens/imagem3.png" class="d-block w-100">
+                                <img src="imagens/imagem3.png" class="d-block w-100">
                             </div>
                         </div>
                         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -64,10 +60,7 @@ include('appProduto/telas/header.php');
                 </div>
             </section>
         </main>
-        <?php
-include('appProduto/telas/footer.php');
+<?php
+include('../appProduto/telas/footer.php');
 ?>
-        </div>
-    </body>
-
-</html>
+           

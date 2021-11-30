@@ -19,14 +19,22 @@ echo
             .hover:hover{
                 color: rgb(110, 112, 111)!important;
             }
-           
+            #logo{
+                height: 70px;
+            }
+            .corDeFundo{
+                background-color:#F8F8F8;
+            }
+            
+          
+          
         </style>
     </head>
     <header>
-        <div class="pb-5">
-        <nav class="navbar navbar-expand-lg navbar-light" style="background-color:#2c3e50">
+        <div class="pb-5 corDeFundo ">
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color:black">
           <div class="container">
-              <a class="navbar-brand color-brand text-white fw-bold " href="#">Nossos quadrinhos</a>
+              <img src="../logo.jpeg " id="logo">
               <h1 class="d-none">Nossos quadrinhos</h1>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#divMenu">
                   <span class="navbar-toggler-icon"></span>
@@ -40,13 +48,13 @@ echo
                         <a class="link-navbar nav-link fs-5 text-white hover" href="listar.php">Listar</a>
                     </li>
                     <li class="nav-item">
-                        <a class="link-navbar nav-link fs-5  text-white hover" href="PI-telaDeLogin/index.html">Login</a>
+                        <a class="link-navbar nav-link fs-5  text-white hover" href="login/index.html">Login</a>
                     </li>
                   </ul>
               </div>
           </div>
         </nav>
-        <div class="pt-2 pb-2" style="background-color: rgb(151, 151, 151);">
+        <div class="pt-2 pb-2" style="background-color: red;">
           <div class="container">
             <div class="row">
             </div>

@@ -37,6 +37,9 @@ if($stmt->execute($valores)){
 }else{
     echo"ERRO AO GRAVAR NO BANCO DE DADOS!";
 }
+
+/*
 echo"<pre>";
 var_dump($valores);
 echo"</pre>";
+*/

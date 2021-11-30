@@ -8,19 +8,20 @@ include(__DIR__ . '/header.php');
                 <th>Id</th> <th>Nome</th> <th>Descrição</th> <th>Preço</th> <th>Quantidade</th> <th>Ações</th> <th> </th>
             </tr>
             <?php
-            foreach($registros as $registro){
-                echo"
+                
+                foreach($registros as $registro){
+                    echo"
                     <tr>
-                        <td>{$registro['id']}</td> 
-                        <td>{$registro['nome']}</td>
-                        <td>{$registro['descricao']}</td> 
-                        <td>{$registro['preco']}</td> 
-                        <td>{$registro['quantidade']}</td> 
-                        <td>
+                            <td>{$registro['id']}</td> 
+                            <td>{$registro['nome']}</td>
+                            <td>{$registro['descricao']}</td> 
+                            <td>{$registro['preco']}</td> 
+                            <td>{$registro['quantidade']}</td> 
+                            <td>
                             <button class=' btn btn-danger' name='apagar' value='{$registro['id']}'>apagar</button>
                             <button class='btn btn-info' name='editar' value='{$registro['id']}'>editar</button>
                         </td>
-                </tr>";
+                    </tr>";
             }
             ?>
         </table>

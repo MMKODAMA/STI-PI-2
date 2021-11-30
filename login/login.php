@@ -6,7 +6,7 @@ error_reporting(E_ALL);
 session_start();
 
 
-require_once('banco/conecta.php');
+require_once('connection/connectionFactory.php');
 
 $stmt = $db->prepare('SELECT id,email,senha FROM usuarios WHERE email = :email');
 

@@ -1,10 +1,12 @@
-.link-navbar{
-    color:white !important;
+.link-navbar {
+    color: white !important;
     text-decoration: none;
 }
-.link-navbar:hover{
-    color:black !important;
+
+.link-navbar:hover {
+    color: black !important;
 }
-footer{
-    color:white;
+
+footer {
+    color: white;
 }

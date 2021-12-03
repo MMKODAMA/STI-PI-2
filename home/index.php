@@ -4,7 +4,7 @@ include('../appProduto/telas/header.php');
 
 <div>      
     <div class="col-12">
-        <img src="imagens/teste.png" style="width:100%"> 
+        <img src="imagens/teste-banner.jpg" style="width:100%"> 
     </div>
                     
   

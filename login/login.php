@@ -15,10 +15,10 @@ if($registro){
     if(password_verify($_POST['password'], $registro['senha'])){
         header('Location: ../home/index.php');
     }else{
+        header('Location: erro.html');
 
-        echo 'Credenciais invalidas<br><br><a href="login.html">Tente Novamente</a>';
     }
 }else{
 
-    echo 'Credenciais invalidas<br><br><a href="login.html">Tente Novamente</a>';
+    header('Location: erro.html');
 }

@@ -19,7 +19,7 @@
 
                 <div class="col-md-4">
                     <label for="inputState" class="form-label fs-5">Quantidade</label>
-                    <select id="inputState" class="form-select">
+                    <select id="inputState" class="form-select" name="quant">
                     <option selected name="quant">1</option>
                     <option name="quant">3</option>
                     <option name="quant">6</option>

@@ -1,7 +1,19 @@
 <?php
 include(__DIR__ . '/header.php');
-?>
+$_GET['apagado'] = $_GET['apagado'] ?? false;
+$_GET['gravado'] = $_GET['gravado'] ?? false;
 
+if($_GET['apagado']){
+    echo"<div class='alert alert-warning' role='alert'>
+    Produto Apagado com Sucesso!
+  </div>";
+}
+if($_GET['gravado']){
+    echo"<div class='alert alert-success' role='alert'>
+    Produto Salvo com Sucesso!
+  </div>";
+}
+?>
 
     <div class="corDeFundo">
         <form action="acoesProduto.php" method="post">
@@ -28,7 +40,12 @@ include(__DIR__ . '/header.php');
         </table>
     </form>
    
+    
 <?php
+
+
+
+
 include(__DIR__ . '/footer.php');
 ?>
 

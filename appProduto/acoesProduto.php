@@ -10,6 +10,8 @@ if(!empty($_POST['apagar'])){
 
     $success = $stmt->execute([':id' => $_POST['apagar']]);
 
+    echo "<script>alert('apagado');</script>";
+
     header('Location: listarProdutos.php?apagado=' . $success);
 }
 

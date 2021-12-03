@@ -9,18 +9,9 @@ require("../connection/connectionFactory.php");
 
 //$sql = 'SELECT id, nome, preco, descricao, quantidade FROM produto';
 
-/*
-$_GET['apagado'] = $_GET['apagado'] ?? false;
-$_GET['gravado'] = $_GET['gravado'] ?? false;
 
-if($_GET['apagado']){
-    echo"<font color='red'>Apagado com sucesso!</font><br>";
-}
-if($_GET['gravado']){
-    echo"<font color='green'>Gravado com sucesso!</font><br>";
-}
 
-*/
+
 
 $stmt = $db->query('SELECT id, nome, descricao, preco, quantidade FROM produto');
 
@@ -29,6 +20,15 @@ $registros = $stmt->fetchAll();
 
 require('telas/listar.php');  
 
+$_GET['apagado'] = $_GET['apagado'] ?? false;
+$_GET['gravado'] = $_GET['gravado'] ?? false;
+
+// if($_GET['apagado']){
+//     echo"<font color='red'>Apagado com sucesso!</font><br>";
+// }
+// if($_GET['gravado']){
+//     echo"<font color='green'>Gravado com sucesso!</font><br>";
+// }
 
 
 

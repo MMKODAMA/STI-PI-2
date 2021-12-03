@@ -35,7 +35,7 @@ include('../appProduto/telas/header.php');
             </section>
 -->
 </div>       
-<main class="corDeFundo pt-3">
+<main class="corDeFundo pt-3" >
     
     <h1 class="text-center py-5 fw-bold ">Edição Especial</h1>
     <hr>

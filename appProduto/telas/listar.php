@@ -4,18 +4,18 @@ $_GET['apagado'] = $_GET['apagado'] ?? false;
 $_GET['gravado'] = $_GET['gravado'] ?? false;
 
 if($_GET['apagado']){
-    echo"<div class='alert alert-warning' role='alert'>
+    echo"<div class='alert alert-warning' style='margin-bottom:0px' role='alert'>
     Produto Apagado com Sucesso!
   </div>";
 }
 if($_GET['gravado']){
-    echo"<div class='alert alert-success' role='alert'>
+    echo"<div class='alert alert-success' style='margin-bottom:0px' role='alert'>
     Produto Salvo com Sucesso!
   </div>";
 }
 ?>
 
-    <div class="teste">
+    <div class="teste" style="padding-top:50px">
         <form action="acoesProduto.php" method="post">
             <table border="2" class=" container table  table-striped table-hover text-center corDeFundo">
                 <tr>
@@ -38,13 +38,8 @@ if($_GET['gravado']){
             }
             ?>
         </table>
-    </form>
-   
-    
+    </form>  
 <?php
-
-
-
 
 include(__DIR__ . '/footer.php');
 ?>

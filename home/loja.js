@@ -15,7 +15,6 @@ let jogador1 = {
         //console.log(this.valor);
         ganhou.vencedor(); //trocar
     },
-
 }
 
 let ganhou = {
@@ -36,7 +35,5 @@ let ganhou = {
         } else {
             document.getElementById('verif').innerText = `Você não pode jogar mais de 1 vez, sorry`;
         }
-
-
     },
 }

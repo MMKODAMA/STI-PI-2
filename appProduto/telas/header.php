@@ -35,14 +35,11 @@ echo
             body{
                 color:white;
             }
-           
-           
-          
-          
+            
         </style>
     </head>
-    <header>
-        <div class="pb-5 teste ">
+    <header> 
+        <div class=" teste">
         <nav class="navbar navbar-expand-lg navbar-light" style="background-color:black">
           <div class="container">
               <a href="../home/index.php"><img src="../logo.jpeg " id="logo"></a>
@@ -63,8 +60,6 @@ echo
         </nav>
         <div class="pt-2 pb-2" style="background-color: red;">
           <div class="container">
-            <div class="row">
-            </div>
           </div>
         </div>
         </div>

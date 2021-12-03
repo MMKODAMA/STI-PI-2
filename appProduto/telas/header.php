@@ -8,6 +8,8 @@ echo
         <title>cadastro de Produtos</title>
         <!-- CSS only -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <!-- JavaScript Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Montagu+Slab&family=Yuji+Syuku&display=swap" rel="stylesheet">
@@ -27,13 +29,20 @@ echo
             .corDeFundo{
                 background-color:#F8F8F8;
             }
+            .teste{
+                background-color:#181A1A;
+            }
+            body{
+                color:white;
+            }
+           
            
           
           
         </style>
     </head>
     <header>
-        <div class="pb-5 corDeFundo ">
+        <div class="pb-5 teste ">
         <nav class="navbar navbar-expand-lg navbar-light" style="background-color:black">
           <div class="container">
               <a href="../home/index.php"><img src="../logo.jpeg " id="logo"></a>

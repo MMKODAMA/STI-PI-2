@@ -1,7 +1,7 @@
     <?php
         require("telas/header.php");
     ?>
-    <body class="corDeFundo">
+    <body class="teste">
         <div style="padding-left: 100px">
             <form class="row g-3 container py-3 ps-5 "  method="post" action="gravaProdutosBD.php">
                 <div class="col-md-6">

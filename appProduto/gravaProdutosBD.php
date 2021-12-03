@@ -25,7 +25,7 @@ $stmt = $db->prepare(" INSERT INTO produto
 
 $valores[':nome'] = $_POST['nome'];
 $valores[':preco'] = $_POST['preco'];
-$valores[':descricao'] = $_POST['desc'];
+$valores[':descricao'] = $_POST['descricao'];
 $valores[':quantidade'] = $_POST['quant'];
 
 //Executamos a consulta SQL

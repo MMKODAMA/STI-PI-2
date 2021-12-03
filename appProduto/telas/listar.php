@@ -3,9 +3,9 @@ include(__DIR__ . '/header.php');
 ?>
 
 
-    <div class="corDeFundo">
+    <div class="teste">
         <form action="acoesProduto.php" method="post">
-            <table border="2" class=" container table  table-striped table-hover text-center">
+            <table border="2" class=" container table  table-striped table-hover text-center corDeFundo">
                 <tr>
                     <th>Id</th> <th>Nome</th> <th>Descrição</th> <th>Preço</th> <th>Quantidade</th> <th>Ações</th> <th> </th>
                 </tr>

@@ -6,7 +6,7 @@ error_reporting(E_ALL);
 session_start();
 
 
-require_once('banco/conecta.php');
+require_once('connection/connectionFactory.php');
 
 $stmt = $db->prepare('SELECT id,email,senha FROM usuarios WHERE email = :email');
 
@@ -18,10 +18,7 @@ if($registro){
     if(password_verify($_POST['password'], $registro['senha'])){
         
         $_SESSION['id'] = $registro['id'];
-        
-        include('../shared/header.php');
-        include('../shared/home.php');
-        include('../shared/footer.php');
+        header('Location: cadastro/cadastro.html');
     }else{
         
         session_destroy();

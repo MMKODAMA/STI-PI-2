@@ -2,6 +2,7 @@
 include(__DIR__ . '/header.php');
 ?>
 
+
     <div class="corDeFundo">
         <form action="acoesProduto.php" method="post">
             <table border="2" class=" container table  table-striped table-hover text-center">
@@ -18,15 +19,15 @@ include(__DIR__ . '/header.php');
                             <td>{$registro['preco']}</td> 
                             <td>{$registro['quantidade']}</td> 
                             <td>
-                                <button class=' btn btn-danger' name='apagar' value='{$registro['id']}'>apagar</button>
-                                <button class='btn btn-info' name='editar' value='{$registro['id']}'>editar</button>
-                            </td>
+                            <button class=' btn btn-danger' name='apagar' value='{$registro['id']}'>apagar</button>
+                            <button class='btn btn-info' name='editar' value='{$registro['id']}'>editar</button>
+                        </td>
                     </tr>";
-                }
-                ?>
-            </table>
-        </form>
-    <div>
+            }
+            ?>
+        </table>
+    </form>
+   
 <?php
 include(__DIR__ . '/footer.php');
 ?>

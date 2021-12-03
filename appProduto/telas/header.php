@@ -55,6 +55,10 @@ echo
                     <li class="nav-item">
                         <a class="link-navbar nav-link fs-5 text-white hover" href="../appProduto/listar.php">Listar</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="link-navbar nav-link fs-5 text-white hover" href="../login/login.html">Sair</a>
+                    </li>
+
               </div>
           </div>
         </nav>

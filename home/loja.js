@@ -33,7 +33,7 @@ let ganhou = {
                 }
             }
         } else {
-            document.getElementById('verif').innerText = `Você não pode jogar mais de 1 vez, sorry`;
+            document.getElementById('verif').innerText = `Você não pode jogar mais de 1 vez!`;
         }
     },
 }
